@@ -39,9 +39,12 @@ header a:hover{
     text-decoration: underline;
 }
 
-section{
+p{
+    margin: 15px, 0px, 15px, 0px;
+}
+
+section  p{
     font-family: var(--font-padrao);
-    padding: 15px 0px 15px 0px;
     border: 1px solid black;
     font-size: 20px;
     text-align: justify;
@@ -56,9 +59,8 @@ div.background1{
     height: 300px;
 }
 
-article{
+article > p{
     color: white;
     font-family: var(--font-padrao);
-    padding: 15px 0px 15px 0px;
     font-size: 20px;
 }
